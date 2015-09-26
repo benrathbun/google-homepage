@@ -1,14 +1,47 @@
-ul {
+.header {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
-li {
 	display: inline-block;
 	float: right;
 	text-align: right;
-	color: #000
+	color: #000;
 	font-family: arial, sans-serif;
 	font-size: 13px;
 	text-decoration: none;
+}
+.footer {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+}
+.footerL {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	color: #000;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+}
+.footerL li {
+	display: inline;
+}
+.footerR {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	color: #000;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	text-align: right;
+	float: right;
+}
+.footerR li {
+	display: inline;
 }
